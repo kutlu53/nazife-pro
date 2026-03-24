@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2026-03-24",
+    "total_players": 8
+  },
+  "players": [
+    {
+      "id": "wembanyama",
+      "name": "Victor Wembanyama",
+      "team": "SAS",
+      "position": "C/PF",
+      "role": "Primer Scorer / Rim Protektor / Primer Creator",
+      "season_averages": {
+        "ppg": 24.3,
+        "rpg": 11.1,
+        "apg": 3.0,
+        "bpg": 2.8,
+        "mpg": 29
+      },
+      "barems": {
+        "points": { "value": 22.5, "confidence": "guclu", "note": "Tarihsel %83+ gecme orani NYK'ya karsi" },
+        "rebounds": { "value": 10.5, "confidence": "guclu", "note": "13+ reb NYK'ya karsi gerceklesti" },
+        "blocks": { "value": 2.5, "confidence": "guclu", "note": "MIA ve NYK gibi rim'e saldiran takimlara karsi" },
+        "assists": { "value": 2.5, "confidence": "normal", "note": "Sekonder kategori, guvenilirlik dusuk" }
+      },
+      "matchup_notes": [
+        { "opponent": "NYK", "note": "Tarihsel 30.4 ppg, 14.6 reb — matchup cok guclu" },
+        { "opponent": "MIA", "note": "26 sayi, 15 reb yapti — center profiline acik" },
+        { "opponent": "BOS", "note": "39 sayi, 11 reb, career-high 8 uclu — BOS'un 3 izin ver stratejisi yanlisti" },
+        { "opponent": "DET-Pistons", "note": "38 sayi, 16 reb, 5 blok — Mart 5 en iyi performanslari" }
+      ],
+      "veto_flags": [
+        "Diz/ayak bilegi sorunlari tekrarlayan — injury check kritik",
+        "Back-to-back ikinci maci: dakika kisitlanabilir",
+        "Blowout >15 fark: erken cekilme riski (kural 19.7)"
+      ],
+      "spread_sensitivity": "normal",
+      "test_history": [
+        { "date": "2026-03-01", "opponent": "NYK", "spread": "SAS -1.5", "bets": [
+          { "market": "points", "line": 22.5, "direction": "over", "actual": 25, "result": "win" },
+          { "market": "rebounds", "line": 10.5, "direction": "over", "actual": 13, "result": "win" },
+          { "market": "blocks", "line": 2.5, "direction": "over", "actual": 4, "result": "win" }
+        ]},
+        { "date": "2026-03-11", "opponent": "BOS", "spread": "SAS -2", "bets": [
+          { "market": "points", "line": 24.5, "direction": "over", "actual": 39, "result": "win" },
+          { "market": "rebounds", "line": 10.5, "direction": "over", "actual": 11, "result": "win" }
+        ]},
+        { "date": "2026-03-23", "opponent": "MIA", "spread": "MIA -3", "bets": [
+          { "market": "points", "line": 22.5, "direction": "over", "actual": 26, "result": "win" },
+          { "market": "rebounds", "line": 10.5, "direction": "over", "actual": 15, "result": "win" },
+          { "market": "blocks", "line": 2.5, "direction": "over", "actual": 5, "result": "win" }
+        ]}
+      ]
+    },
+    {
+      "id": "jokic",
+      "name": "Nikola Jokic",
+      "team": "DEN",
+      "position": "C",
+      "role": "Primer Creator / Dominant Scorer / Playmaker",
+      "season_averages": {
+        "ppg": 28.1,
+        "rpg": 12.6,
+        "apg": 10.5,
+        "bpg": 0.7,
+        "mpg": 35
+      },
+      "barems": {
+        "points": { "value": 27.5, "confidence": "dikkatli", "note": "26.5 cok sik sinirda kaliyor — 27.5 kullan" },
+        "rebounds": { "value": 11.5, "confidence": "guclu", "note": "14+ reb sik" },
+        "assists": { "value": 9.5, "confidence": "guclu", "note": "Triple-double profili nedeniyle" },
+        "triple_double": { "value": null, "confidence": "guclu", "note": "Sezon 28+ triple-double" }
+      },
+      "matchup_notes": [
+        { "opponent": "OKC", "note": "3 macta 29 ppg, 14.3 reb, 12.7 ast — KAYBETSE DE uretim tam" },
+        { "opponent": "UTA", "note": "Triple-double neredeyse garantili — zayif savunma" },
+        { "opponent": "WAS", "note": "Her markette patlama profili" },
+        { "opponent": "MEM", "note": "Alt sira — 29 sayi, 14 reb, 9 ast (Mart 18)" }
+      ],
+      "veto_flags": [
+        "DEN buyuk fav (spread >14) ama Jokic'e blowout etkisi az — 19.7 istisnasi",
+        "65-mac kurali: sezon bitti degil ama dolu oynanmasi onemli",
+        "Sayi baremi 27.5 kullan — 26.5 sistematik olarak sinirda kaliyor"
+      ],
+      "spread_sensitivity": "dusuk",
+      "test_history": [
+        { "date": "2026-03-05", "opponent": "UTA", "spread": "DEN -10", "bets": [
+          { "market": "points", "line": 26.5, "direction": "over", "actual": 26, "result": "loss" },
+          { "market": "rebounds", "line": 11.5, "direction": "over", "actual": 15, "result": "win" },
+          { "market": "assists", "line": 9.5, "direction": "over", "actual": 11, "result": "win" }
+        ]}
+      ]
+    },
+    {
+      "id": "sga",
+      "name": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "position": "G",
+      "role": "Primer Scorer / Lead Creator / Stopper",
+      "season_averages": {
+        "ppg": 31.6,
+        "apg": 6.6,
+        "rpg": 4.4,
+        "spg": 2.0,
+        "mpg": 33
+      },
+      "barems": {
+        "points": { "value": 29.5, "confidence": "guclu", "note": "Zayif rakiplere guclu, guclu rakilere dikkatli" },
+        "assists": { "value": 6.5, "confidence": "normal", "note": "Guclu matchuplarda isabetli" },
+        "steals": { "value": 1.5, "confidence": "guclu", "note": "2+ stl sik" },
+        "points_under": { "value": 30.5, "confidence": "guclu", "note": "OKC cok favori iken under guclu" }
+      },
+      "matchup_notes": [
+        { "opponent": "PHI", "note": "OKC 20 fark favori: 22 sayi (under isabetli — kural 19.7)" },
+        { "opponent": "BOS", "note": "Yakin mac: 35 sayi, Wilt rekoru kirdigi gece (127. mac)" },
+        { "opponent": "DEN", "note": "3 macta 35 ppg, 12.3 ast — en guclu profil" }
+      ],
+      "veto_flags": [
+        "Sakatlık gecmisi: abdominal (9 mac), injury check kritik",
+        "Donus ilk maci: tekli verilmez — kupona uygun maks",
+        "OKC spread >12: sayi/asist over tekli yok (kural 19.7)",
+        "OKC spread >18: under degerlendir"
+      ],
+      "spread_sensitivity": "yuksek",
+      "test_history": [
+        { "date": "2026-03-13", "opponent": "BOS", "spread": "OKC -2", "bets": [
+          { "market": "points", "line": 27.5, "direction": "over", "actual": 35, "result": "win" },
+          { "market": "assists", "line": 5.5, "direction": "over", "actual": 9, "result": "win" }
+        ]},
+        { "date": "2026-03-24", "opponent": "PHI", "spread": "OKC -20", "bets": [
+          { "market": "points", "line": 30.5, "direction": "under", "actual": 22, "result": "win" }
+        ]}
+      ]
+    },
+    {
+      "id": "brunson",
+      "name": "Jalen Brunson",
+      "team": "NYK",
+      "position": "G",
+      "role": "Primer Scorer / Lead Handler",
+      "season_averages": {
+        "ppg": 29.1,
+        "apg": 6.6,
+        "rpg": 3.5,
+        "mpg": 36
+      },
+      "barems": {
+        "points": { "value": 27.5, "confidence": "guclu", "note": "Spread <10 sartıyla" },
+        "assists": { "value": 6.5, "confidence": "normal", "note": "Yakin macularda guclu, blowout'ta dusuyor" }
+      },
+      "matchup_notes": [
+        { "opponent": "WAS", "note": "Tarihsel 27+ ppg ama blowout riski var — NYK spread >15 ise pas" },
+        { "opponent": "LAL", "note": "8 Mart: 24 sayi — Luka, Reaves'e karsi baskı altinda" }
+      ],
+      "veto_flags": [
+        "NYK spread >15: Brunson erken cekilir — over tekli yok (kural 19.7)",
+        "Blowout kanitlandi: WAS macinda 32 fark, 23 sayi / 4 ast"
+      ],
+      "spread_sensitivity": "yuksek",
+      "test_history": [
+        { "date": "2026-03-23", "opponent": "WAS", "spread": "NYK -22.5", "bets": [
+          { "market": "points", "line": 27.5, "direction": "over", "actual": 23, "result": "loss", "note": "Blowout kural 19.7 — tahmin verilmemeli idi" },
+          { "market": "assists", "line": 6.5, "direction": "over", "actual": 4, "result": "loss", "note": "Blowout kural 19.7" }
+        ]}
+      ]
+    },
+    {
+      "id": "booker",
+      "name": "Devin Booker",
+      "team": "PHX",
+      "position": "G",
+      "role": "Primer Scorer / Yaratici Guard",
+      "season_averages": {
+        "ppg": 25.6,
+        "apg": 4.5,
+        "rpg": 4.2,
+        "mpg": 34
+      },
+      "barems": {
+        "points": { "value": 28.5, "confidence": "dikkatli", "note": "Spread <10 sartıyla" }
+      },
+      "matchup_notes": [
+        { "opponent": "TOR", "note": "PHX 22 fark: 25 sayi (31dk) — blowout kural kaybettirdi" }
+      ],
+      "veto_flags": [
+        "PHX spread >15: Booker erken cekilir — kural 19.7 aktif",
+        "Blowout kazanirsa 30-31 dk'ya dusuyor"
+      ],
+      "spread_sensitivity": "yuksek",
+      "test_history": [
+        { "date": "2026-03-23", "opponent": "TOR", "spread": "PHX -22", "bets": [
+          { "market": "points", "line": 28.5, "direction": "over", "actual": 25, "result": "loss", "note": "Blowout kural 19.7 — tahmin verilmemeli idi" }
+        ]}
+      ]
+    },
+    {
+      "id": "banchero",
+      "name": "Paolo Banchero",
+      "team": "ORL",
+      "position": "F",
+      "role": "Primer Scorer / Hub Creator",
+      "season_averages": {
+        "ppg": 22.2,
+        "rpg": 8.5,
+        "apg": 5.0,
+        "mpg": 35
+      },
+      "barems": {
+        "points": { "value": 22.5, "confidence": "guclu", "note": "IND gibi zayif savunmalara karsi" },
+        "rebounds": { "value": 8.5, "confidence": "dikkatli", "note": "Varyans cok yuksek — sayi over tercih et" }
+      },
+      "matchup_notes": [
+        { "opponent": "IND", "note": "39 sayi yaptı (24 Mart) — buyuk forward profillerine tam acik" }
+      ],
+      "veto_flags": [
+        "Ribaund varyansı cok yuksek: 4 reb de yapabilir (24 Mart'ta oldu)",
+        "Takim kayip serisinde ise: prop over isabetli ama mac bahsine girilmez (kural 19.6)",
+        "Suggs+Wagner yoksa: kural 19.5 — dikkatli over"
+      ],
+      "spread_sensitivity": "normal",
+      "test_history": [
+        { "date": "2026-03-24", "opponent": "IND", "spread": "IND -2", "bets": [
+          { "market": "points", "line": 22.5, "direction": "over", "actual": 39, "result": "win" },
+          { "market": "rebounds", "line": 8.5, "direction": "over", "actual": 4, "result": "loss", "note": "Varyans gerceklesti" }
+        ]}
+      ]
+    },
+    {
+      "id": "cunningham",
+      "name": "Cade Cunningham",
+      "team": "DET",
+      "position": "G",
+      "role": "Primer Scorer / Playmaker / Hub Guard",
+      "season_averages": {
+        "ppg": 24.1,
+        "apg": 9.2,
+        "rpg": 5.0,
+        "mpg": 35
+      },
+      "barems": {
+        "points": { "value": 24.5, "confidence": "guclu", "note": "Luka'siz LAL gibi guclu matchup varsa" },
+        "assists": { "value": 8.5, "confidence": "normal", "note": "9.5 sinirda — 8.5 daha guvenli" }
+      },
+      "matchup_notes": [
+        { "opponent": "LAL", "note": "Luka'siz: 30 sayi (23 Mart) — perimeter savunma cokuyor" }
+      ],
+      "veto_flags": [
+        "Asist baremi 9.5 sistematik olarak sinirda — 8.5 kullan"
+      ],
+      "spread_sensitivity": "normal",
+      "test_history": [
+        { "date": "2026-03-23", "opponent": "LAL", "spread": "DET -3", "bets": [
+          { "market": "points", "line": 24.5, "direction": "over", "actual": 30, "result": "win" },
+          { "market": "assists", "line": 9.5, "direction": "over", "actual": 8, "result": "loss" }
+        ]}
+      ]
+    },
+    {
+      "id": "brown_jaylen",
+      "name": "Jaylen Brown",
+      "team": "BOS",
+      "position": "G/F",
+      "role": "Primer Scorer (Tatum yokken A, varken B)",
+      "season_averages": {
+        "ppg": 26.0,
+        "rpg": 7.2,
+        "apg": 5.1,
+        "mpg": 36
+      },
+      "barems": {
+        "points_tatum_out": { "value": 24.5, "confidence": "guclu", "note": "Tatum yokken — tam A adayi" },
+        "points_tatum_in": { "value": 21.5, "confidence": "guclu", "note": "Tatum varken — daha guvenli" }
+      },
+      "matchup_notes": [
+        { "opponent": "MIN", "note": "29 sayi (23 Mart) — Tatum sinirliydi, Brown A adayi konumundaydi" },
+        { "opponent": "SAS", "note": "Ejekte oldu (11 Mart) — dikkatli ol" }
+      ],
+      "veto_flags": [
+        "Tatum sahada: barem 21.5'e dusur",
+        "Teknik foul / ejeksiyon gecmisi: temperament riski"
+      ],
+      "spread_sensitivity": "normal",
+      "test_history": [
+        { "date": "2026-03-23", "opponent": "MIN", "spread": "MIN +10.5", "bets": [
+          { "market": "points", "line": 24.5, "direction": "over", "actual": 29, "result": "win" }
+        ]}
+      ]
+    },
+    {
+      "id": "doncic",
+      "name": "Luka Doncic",
+      "team": "LAL",
+      "position": "G/F",
+      "role": "Primer Scorer / Playmaker / Isolation King",
+      "season_averages": {
+        "ppg": 33.4,
+        "rpg": 8.5,
+        "apg": 8.5,
+        "mpg": 36
+      },
+      "barems": {
+        "points": { "value": 29.5, "confidence": "guclu", "note": "LeBron yokken 35+ profili, varken 30+" },
+        "rebounds": { "value": 7.5, "confidence": "guclu", "note": "8+ reb sik" },
+        "assists": { "value": 7.5, "confidence": "normal", "note": "8-9 ast beklenen, 10+ macularda patliyor" }
+      },
+      "matchup_notes": [
+        { "opponent": "NYK", "note": "8 Mart (LeBron yok): 35 sayi, 8 reb — mecburi usage tam" },
+        { "opponent": "NYK-2", "note": "Farkli macta 30+ profili devam etti" }
+      ],
+      "veto_flags": [
+        "Hamstring gecmisi: injury check kritik",
+        "LeBron yokken: mecburi usage — sayi barem yuksel",
+        "LeBron varken: paylasimlı usage — barem dusur",
+        "Teknik foul sorunu: 16 teknik (silindi) — ejeksiyon riski var"
+      ],
+      "spread_sensitivity": "normal",
+      "test_history": [
+        { "date": "2026-03-08", "opponent": "NYK", "spread": "NYK -3.5", "bets": [
+          { "market": "points", "line": 29.5, "direction": "over", "actual": 35, "result": "win" },
+          { "market": "rebounds", "line": 7.5, "direction": "over", "actual": 8, "result": "win" }
+        ]}
+      ]
+    }
+  ]
+}

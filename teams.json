@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2026-03-24",
+    "total_teams": 6
+  },
+  "teams": [
+    {
+      "id": "NYK",
+      "name": "New York Knicks",
+      "defensive_rating": 112.7,
+      "tier": "orta",
+      "open_areas": [
+        "Center ve big forward profillerine: ribaund ve sayida acik",
+        "Wemby, Jokic tipi oyunculara rim scoring acigi var",
+        "Post savunmasi zayif"
+      ],
+      "strong_areas": [
+        "Perimeter guard savunmasi: Bridges, Anunoby guclu",
+        "Transition savunmasi genelde iyi"
+      ],
+      "test_evidence": [
+        "Wemby: 25 sayi, 13 reb, 4 blok (1 Mart) — center profiline acik teyit",
+        "SGA: 26 sayi, 8 ast (4 Mart) — guard profiline yari acik"
+      ]
+    },
+    {
+      "id": "WAS",
+      "name": "Washington Wizards",
+      "defensive_rating": 120.0,
+      "tier": "kotu",
+      "open_areas": [
+        "Guard profillerine tam acik — isolation scorer'lar patliyor",
+        "Wing scorer'lara acik",
+        "Pick-and-roll savunmasi berbat",
+        "3 point savunmasi: %40.5 karsi — kose uclugu aciyor"
+      ],
+      "strong_areas": [],
+      "test_evidence": [
+        "NYK 32 fark kazandi (23 Mart) — blowout her prop'u bozdu",
+        "Bam 83 puan (10 Mart) — tarihin en kotu savunmasi"
+      ],
+      "blowout_risk": "cok yuksek",
+      "note": "WAS'a karsi over guclu ama buyuk favori takimin spread'i >15 olunca tekli verme"
+    },
+    {
+      "id": "IND",
+      "name": "Indiana Pacers",
+      "defensive_rating": 125.0,
+      "tier": "tank",
+      "open_areas": [
+        "Her pozisyona her markette acik",
+        "Big forward profillerine: sayi acigi buyuk",
+        "Pace yuksek — istatistikler yukseliyor",
+        "Second chance veriyor — ribaund kotu"
+      ],
+      "strong_areas": [],
+      "test_evidence": [
+        "Banchero: 39 sayi (24 Mart) — buyuk forward profiline tam acik teyit"
+      ],
+      "blowout_risk": "dusuk",
+      "note": "IND tank modunda — her marc over potansiyeli var"
+    },
+    {
+      "id": "MIA",
+      "name": "Miami Heat",
+      "defensive_rating": 112.5,
+      "tier": "orta",
+      "open_areas": [
+        "Center profillerine acik: Wemby 26 sayi, 15 reb yapti",
+        "Second chance veriyor — big rebound profilleri icin guclu"
+      ],
+      "strong_areas": [
+        "Perimeter guard savunmasi: orta-iyi",
+        "Help defense organizasyonu Spoelstra altinda iyi"
+      ],
+      "test_evidence": [
+        "Wemby: 26 sayi, 15 reb, 5 blok (23 Mart) — center profiline acik teyit"
+      ]
+    },
+    {
+      "id": "PHI",
+      "name": "Philadelphia 76ers",
+      "defensive_rating": 116.1,
+      "tier": "zayif",
+      "open_areas": [
+        "Maxey/Embiid/George yokken: guard savunmasi tamamen cokuyor",
+        "Kural 19.5 profili: mecburi yuksek usage oyunculari patliyor",
+        "Transition savunmasi kotu"
+      ],
+      "strong_areas": [
+        "Kadro tam saglikli: Embiid ile savunma organize olabiliyor"
+      ],
+      "test_evidence": [
+        "SGA: 22 sayi (under isabetli — OKC 20 fark fav, kural 19.7)",
+        "Edgecombe: 35 sayi (kural 19.5 teyit)"
+      ],
+      "note": "Her mac oncesi injury report kritik — kadro degiskenlik gosteriyor"
+    },
+    {
+      "id": "BOS",
+      "name": "Boston Celtics",
+      "defensive_rating": 109.0,
+      "tier": "guclu",
+      "open_areas": [
+        "Uzak ucluklara izin veriyor (Wemby stratejisi bunu hedef aldi ama basti)",
+        "Pick-and-roll savunmasinda zaman zaman acik"
+      ],
+      "strong_areas": [
+        "Perimeter guard savunmasi: White, Brown guclu",
+        "Help defense organizasyonu: iyi"
+      ],
+      "test_evidence": [
+        "Wemby: 39 sayi, career-high 8 uclu (11 Mart) — BOS 3 izin ver stratejisi calismadi",
+        "SGA: 35 sayi (13 Mart) — guclu rakip ama yakın mac"
+      ],
+      "note": "BOS guclu savunma ama Wemby icin 3 izin ver stratejisi yanlisti"
+    }
+  ]
+}
